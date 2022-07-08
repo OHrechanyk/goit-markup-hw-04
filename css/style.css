@@ -474,7 +474,12 @@ body {
   display: flex;
   align-items: baseline;
 }
-
+.social-icon-footer {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: var(--backgruond-color);
+}
 .footer-center-part {
   margin-left: 70px;
   color: var(--backgruond-color);
@@ -505,12 +510,12 @@ body {
   display: block;
   width: 20px;
   height: 20px;
-  fill: currentColor;
-  /* fill: #afb1b8; */
+  fill: #afb1b8;
 }
+
 .social-icon:hover,
 .social-icon:focus {
-  color: var(--backgruond-color);
+  fill: var(--backgruond-color);
 }
 
 .social-link {
