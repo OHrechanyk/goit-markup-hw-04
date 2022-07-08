@@ -163,6 +163,8 @@ body {
   display: inline-block;
   margin-right: 10px;
   fill: currentColor;
+  width: 16px;
+  height: 16px;
 }
 
 /* Hero tittle */
