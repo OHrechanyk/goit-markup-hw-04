@@ -418,16 +418,13 @@ body {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: inherit;
-}
-
-.clientlogo {
-  fill: currentColor;
+  fill: #afb1b8;
 }
 
 .clients:hover,
 .clients:focus {
   border-color: var(--accent-color);
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* Footer */
@@ -509,6 +506,11 @@ body {
   width: 20px;
   height: 20px;
   fill: currentColor;
+  /* fill: #afb1b8; */
+}
+.social-icon:hover,
+.social-icon:focus {
+  color: var(--backgruond-color);
 }
 
 .social-link {
@@ -521,6 +523,7 @@ body {
   border-radius: 50%;
   text-decoration: none;
   color: inherit;
+
   background-color: var(--social-bg-color);
 }
 
